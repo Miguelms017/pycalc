@@ -1,0 +1,49 @@
+#calculator{
+    align-items: center;
+}
+
+.screen{
+    height: 6em;
+}
+
+.screen div#show{
+    font-size: 4em;
+}
+
+td{
+    display: flex;
+    flex-direction: row;
+    gap: 0.75em;
+}
+
+.button{
+    border-radius: 50px;
+    background-color: gray;
+    text-align: center;
+    font-size: 4em;
+    width: 2em;
+}
+
+.button-top{
+    border-radius: 50px;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 4em;
+    width: 2em;
+}
+
+.button-right{
+    border-radius: 50px;
+    background-color: orange;
+    text-align: center;
+    font-size: 4em;
+    width: 2em;
+}
+
+#delete{
+    width: 4.2em
+}
+
+#zero{
+    width: 4.2em
+}
