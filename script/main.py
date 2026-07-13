@@ -41,7 +41,7 @@ def handle_click(event):
 def handle_click(event):
     display_list.clear()
     calc_array.clear()
-    document.querySelector("#show").innerText = "".join(display_list)\
+    document.querySelector("#show").innerText = "".join(display_list)
 
 
 @when ("click", "#equal")
