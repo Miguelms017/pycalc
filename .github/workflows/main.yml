@@ -22,9 +22,7 @@ jobs:
         run: pip install pyscript
 
       - name: run
-        run: |
-          python -m pip install --upgrade pip
-          python script/main.py
+        run: python script/main.py
 
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
